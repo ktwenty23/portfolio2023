@@ -1,0 +1,19 @@
+﻿#!/bin/sh
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_message.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_payment_methods.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_payment_methods_details.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_bank_account_usage.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_bank_account_usage_details.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_expense_items.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_expense_items_details.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_expense_items_relationship.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_expense_items_details_relationship.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_user_management.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_code_definition.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_authority_management.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/t_account_book.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/t_purchase_history_for_shops.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_dictionary.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_id_definition.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_id_component.sql
+psql  -d accountbook2020 -U accountbook2020 -f /home/accountbook2020/ddl_20210719/m_function_id_definition.sql
